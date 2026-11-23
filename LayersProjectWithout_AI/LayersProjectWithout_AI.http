@@ -1,0 +1,6 @@
+@LayersProjectWithout_AI_HostAddress = http://localhost:5193
+
+GET {{LayersProjectWithout_AI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

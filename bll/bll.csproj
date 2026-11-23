@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dal\dal.csproj" />
+    <ProjectReference Include="..\dto\dto.csproj" />
+    <ProjectReference Include="..\ibll\ibll.csproj" />
+  </ItemGroup>
+
+</Project>
